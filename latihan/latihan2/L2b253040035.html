@@ -1,15 +1,99 @@
-<html>
+<<html>
     <head>
         <title>Latihan 2b</title>
     </head>
     <body>
         <table border="1" align="center" cellspacing="0">
             <tr>
-                <th colspan="6">INPUT DATA MAHASISWA</th>
+                <th colspan="6" rowspan="1" bgcolor="grey">INPUT DATA MAHASISWA</th>
             </tr>
             <tr>
-                <th>Username</th>
-                <th>:</th>
+                <th colspan="2">Username</th>
+                <th rowspan="1">:</th>
+                <th>
+                    <form action="text">
+                        <input type="text">
+                    </form>
+                </th>        
+            </tr>
+            <tr>
+                <th colspan="2">Password</th>
+                <th rowspan="1">:</th>
+                <th>
+                    <form action="text">
+                        <input type="text">
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">Fullname</th>
+                <th rowspan="1">:</th>
+                <th>
+                    <form action="text">
+                        <input type="text">
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">E-mail</th>
+                <th rowspan="1">:</th>
+                <th>
+                    <form>
+                        <input type="text">
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">Agama</th>
+                <th rowspan="1"></th>:</th>
+                <th>
+                    <select>
+                    <option name="Agama">-Pilih Agama-</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Budha">Budha</option>
+                    <option value="Konghucu">Konghucu</option>
+                    <option value="Hindu">Hindu</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">Jenis Kelamin</th>
+                <th rowspan="1">:</th>
+                <th>
+                    <form>
+                        <input type="radio" name="JenisKel" value="Pria"/>Pria
+                        <input type="radio" name="JenisKel" value="Wanita"/>Wanita
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">Hobi</th>
+                <th rowspan="1">:</th>
+                <th>
+                    <form>
+                        <input type="radio" name="Hobi" value="Musik">Musik
+                        <input type="radio" name="Hobi" value="Olahraga">Olahraga
+                        <input type="radio" name="Hobi" value="Gaming">Gaming
+                        <input type="radio" name="Hobi" value="Lainnya">Lainnya
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">Profil Singkat</th>
+                <th rowspan="1">:</th>
+                <th>
+                    <form>
+                        <textarea rows="3" cols="30"></textarea>
+                    </form>
+                </th>
+            </tr>
+            <tr align="right">
+                <th colspan="4">
+                    <form>
+                        <input type="submit" name="Input" value="Input"/>
+                    </form>
+                </th>
             </tr>
         </table>
     </body>
