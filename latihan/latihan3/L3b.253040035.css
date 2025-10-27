@@ -16,8 +16,8 @@ h4{
     font-style: italic;
 }
 p class{
-    color: orange;
     text-align: justify;
+    color: orange;
 }
 p id{
     text-align: justify;

@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+}
+h3 a{
+    color: white;
+}
+h4{
+    text-align: right;
+    font-style: italic;
+}
+#P2{
+    line-height: 1.8;
+}
+.Orange{
+    color: orange;
+}
+.Sandhika{
+    color: white;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.Sandhika:hover{
+    color: red;
+    text-decoration: none;
+}
+.MarkFB{
+    color: blue;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.MarkFB:hover{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
