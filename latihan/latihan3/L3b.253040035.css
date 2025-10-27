@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+}
+h3 a{
+    color: white;
+}
+h4{
+    text-align: right;
+    font-style: italic;
+}
+p class{
+    color: orange;
+    text-align: justify;
+}
+p id{
+    text-align: justify;
+    line-height: 1.8;
+}
