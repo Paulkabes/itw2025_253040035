@@ -1,18 +1,24 @@
 body{
-    background-color: aqua;
+   background-image: url(background.png);
+   background-size: cover;
+   margin: 50px;;
+   padding: 40px;
+   background-attachment: fixed;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 h1{
     font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
-    color: rgb(47, 47, 122);
+    color: rgb(22, 22, 172);
     font-size: 60px;
 }
-h3 a{
-    color: white;
+h3 {
+    color: black;
+    text-align: center;
 }
 h4{
-    text-align: right;
+    text-align: center;
     font-style: italic;
 }
 #P2{
@@ -22,13 +28,14 @@ h4{
     color: orange;
 }
 .Sandhika{
-    color: white;
+    color: red;
     text-decoration: underline;
     transition: 0.3s;
 }
 .Sandhika:hover{
-    color: red;
+    color:white;
     text-decoration: none;
+    background-color: blue;
 }
 .MarkFB{
     color: blue;
