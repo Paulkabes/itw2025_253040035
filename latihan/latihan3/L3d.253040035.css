@@ -1,6 +1,6 @@
 body{
    background-image: url(background.png);
-   background-size: cover;
+    background-repeat: repeat-x;
    margin: 50px;;
    padding: 40px;
    background-attachment: fixed;
