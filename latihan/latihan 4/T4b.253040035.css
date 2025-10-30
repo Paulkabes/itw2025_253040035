@@ -1,0 +1,78 @@
+body{
+    background-image: url();
+    font-family: arial, sans-serif;
+    background-color: white;
+    background-image: url();
+    color: #333;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+.header{
+    padding: 10px;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+
+.header a:hover{
+    background-color: rgb(28, 26, 165);
+    color: white;
+    transition: 0.5s;
+}
+
+.hero{
+    height: 270px;
+    background-image: url(img/bromo.jpg);
+    background-size: cover;
+    background-position: 0px -150px;
+    border-bottom: 5px solid orange;
+    border-top: 5px solid orange;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis{
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+.content .penulis a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.content p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.paragraf{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -50px;
+    padding: 5px;
+}
