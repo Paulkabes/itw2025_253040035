@@ -7,9 +7,10 @@ body{
 
 .judul{
     color: #f8640f;
+    padding-bottom: 50px;
 }
 
-.container{
+container{
     width: 800px;
     margin: auto;
     background-color: rgb(248, 132, 49);
@@ -21,7 +22,7 @@ body{
     padding: 10px;
     background-image: url(img/back6round.jpg);
     background-size: cover;
-    background-position: 0 -100;
+    background-position: 0 -280px;
 }
 
 .header .judul{
@@ -31,7 +32,7 @@ body{
 
 .hero ul li{
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 50px;
     font-style: inherit;
     font-weight: bold;
 }
@@ -52,7 +53,7 @@ body{
     height: 50px;
     background-image: url(img/bromo.jpg);
     background-size: cover;
-    background-position: 0px -150px;
+    background-position: 0px -270px;
     border-bottom: 5px solid black;
     border-top: 5px solid black;
 }
@@ -64,6 +65,7 @@ body{
 .content h2{
     font-size: 32px;
     font-weight: bold;
+    color: #f8640f;
 }
 
 .content .penulis{
@@ -85,5 +87,6 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: -50px;
     padding: 5px;
-    color: white;
+    color: black;
+    line-height: 1.8;
 }
