@@ -1,7 +1,7 @@
 body{
     font-family: arial, sans-serif;
     background-image: url(img/containerbromo.jpg);
-    color: #ffffff;
+    color: black;
     background-size: cover;
 }
 
@@ -10,19 +10,11 @@ body{
     padding-bottom: 50px;
 }
 
-container{
-    width: 800px;
-    margin: auto;
-    background-color: rgb(248, 132, 49);
-    background-image: url(img/containerbromo.jpg);
-    background-size: cover;
-}
-
 .header{
     padding: 10px;
     background-image: url(img/back6round.jpg);
     background-size: cover;
-    background-position: 0 -280px;
+    background-position: 0 -240px;
 }
 
 .header .judul{
@@ -51,9 +43,9 @@ container{
 
 .hero{
     height: 50px;
-    background-image: url(img/bromo.jpg);
+    background-image: url(img/foto3.jpg);
     background-size: cover;
-    background-position: 0px -270px;
+    background-position: 0px -400px;
     border-bottom: 5px solid black;
     border-top: 5px solid black;
 }
@@ -90,3 +82,19 @@ container{
     color: black;
     line-height: 1.8;
 }
+
+.paragraf .src{
+    font-size: 13px;
+}
+
+.footer{
+    background-color: #f8640f;
+    padding: 10px;
+}
+
+.footer .copy{
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+}
+
