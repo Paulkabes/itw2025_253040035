@@ -1,0 +1,72 @@
+body {
+    font-family: arial;
+    background-color: rgb(248, 210, 129);
+}
+
+.header {
+    bottom: whitesmoke;
+    padding: 3px;
+    border-bottom: 3px solid #ffff;
+}
+
+.header a {
+    text-decoration:none;
+    color: #ffff;
+    padding: 3px;
+}
+
+.header a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+h1 { color: #e78618}
+
+.gambar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.thumbnail img {
+    width: 200px;
+    height: 150px;
+}
+
+.hero {
+    max-width: 800px;
+    margin: 50px auto;
+    
+}
+
+.layanan.satu {
+    background-color: #ffa237;
+}
+
+.layanan.dua {
+    background-color: #ffa237;
+}
+
+.layanan.tiga {
+    background-color: #ffa237;
+}
+
+@media ( min-width: 600px ){
+    .hero {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .layanan {
+        width: 30%;
+    }
+}
