@@ -3,31 +3,36 @@ body {
     background-color: rgb(248, 210, 129);
 }
 
-.header {
-    bottom: whitesmoke;
-    padding: 3px;
-    border-bottom: 3px solid #ffff;
-}
-
-.header a {
-    text-decoration:none;
-    color: #ffff;
-    padding: 3px;
-}
-
 .header a:hover{
-    color: #ffffff;
     text-decoration: underline;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
-.header ul li {
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 10px;
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 3px  solid #ffff;
 }
 
-h1 { color: #e78618}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;;
+}
+
+h1{
+    color: #ffff;
+    font-family: "Merriweather", serif;
+}
 
 .gambar {
     width: 100%;
@@ -37,9 +42,15 @@ h1 { color: #e78618}
     margin-top: 30px;
 }
 
-.thumbnail img {
-    width: 200px;
-    height: 150px;
+@media ( min-width: 200px ){
+    .gambar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .thumbnail IMG{
+        width: 150%;
+    }
 }
 
 .hero {
